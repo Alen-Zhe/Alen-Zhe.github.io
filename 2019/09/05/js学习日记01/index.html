@@ -10,10 +10,9 @@
 
     <!--Description-->
     
-        <meta name="description" content="js学习日记 Day01js是一种弱类型的脚本语言，无需编译。它的引入方式分为两种——外部引入、内嵌js的命名规则：关键词保留字不能做变量名，命名做好做到见名知意
-js的数据类型number 数字 NAN的数据类型是number isNAN()方法返回的是布尔值
-string 字符串
-boolean">
+        <meta name="description" content="js是一种弱类型的脚本语言，无需编译。它的引入方式分为两种——外部引入、内嵌js的命名规则：关键词保留字不能做变量名，命名做好做到见名知意
+js的数据类型
+number 数字 NAN的数据类型是number isNAN()方法返回的是布尔值string 字符串boolean 布尔值undefined">
     
 
     <!--Author-->
@@ -23,7 +22,7 @@ boolean">
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Alen">
+        <meta property="og:title" content="js学习日记01">
     
 
     <!--Open Graph Description-->
@@ -34,7 +33,7 @@ boolean">
 
     <!--Type page-->
     
-        <meta property="og:type" content="website">
+        <meta property="og:type" content="article">
     
 
     <!--Page Cover-->
@@ -45,7 +44,7 @@ boolean">
 
     <!-- Title -->
     
-    <title>Alen</title>
+    <title>js学习日记01 - Alen</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -136,21 +135,21 @@ boolean">
     <div class="col-sm-12">
 
         <!--Title and Logo-->
-        
-            <header>
+        <header>
     <div class="logo">
         <a href="/"><i class="logo-icon fa fa-cube" aria-hidden="true"></i></a>
         
     </div>
 </header>
-            <section class="main">
-                
+
+        <section class="main">
+            
 <div class="post">
 
     <div class="post-header">
         <h1 class="title">
-            <a href="/js学习日记 Day01/# js学习日记 Day01.html">
-                Untitled
+            <a href="/2019/09/05/js学习日记01/">
+                js学习日记01
             </a>
         </h1>
         <div class="post-info">
@@ -168,40 +167,32 @@ boolean">
         
 
         <!-- Post Content -->
-        <h1 id="js学习日记-Day01"><a href="#js学习日记-Day01" class="headerlink" title="js学习日记 Day01"></a>js学习日记 Day01</h1><p>js是一种弱类型的脚本语言，无需编译。它的引入方式分为两种——外部引入、内嵌<br>js的命名规则：关键词保留字不能做变量名，命名做好做到见名知意</p>
-<h2 id="js的数据类型"><a href="#js的数据类型" class="headerlink" title="js的数据类型"></a>js的数据类型</h2><pre><code>number 数字 NAN的数据类型是number isNAN()方法返回的是布尔值
-string 字符串
-boolean 布尔值
-undefined 未定义
-null 空值</code></pre><p>js中的对象是一个无序数据的集合</p>
-<h2 id="js中的数据类型转换"><a href="#js中的数据类型转换" class="headerlink" title="js中的数据类型转换"></a>js中的数据类型转换</h2><h3 id="强转"><a href="#强转" class="headerlink" title="强转"></a>强转</h3><pre><code>parseInt() 从字符的第一位开始看，是否是数字，如果不是，则直接抛出NAN。如果第一位是数字，则保留
-parseFloat() 保留小数点
-Number() 要看整体是否全是数字，如果是则相加，如果不是则抛出NAN
-String() 数字转为字符串
-Boolean() 转为布尔值 非数字0都是true，只有数字0才是false</code></pre><h2 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h2><pre><code>++ 递增 会隐式转换
--- 递减
-%  求模取余
-+ 拼接，除非两边全是纯数字，不然要先进行隐式转换</code></pre><h2 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h2><pre><code>= 赋值
-+= a+=2 等同于 a=a+2
--= 
-*=
-%=
-** 求幂</code></pre><h2 id="比较运算符"><a href="#比较运算符" class="headerlink" title="比较运算符"></a>比较运算符</h2><pre><code>== 只比较值，不比较类型
-=== 全相等，既比较值，也比较类型
-&gt; 大于
-&lt; 小于
-&gt;= 大于等于
-&lt;= 小于等于
-!= 判断值是否不等
-！== 判断值是否不全等</code></pre><h2 id="三目运算符（三元运算）"><a href="#三目运算符（三元运算）" class="headerlink" title="三目运算符（三元运算）"></a>三目运算符（三元运算）</h2><pre><code>条件？表达式一：表达式二 如果条件为真，则执行表达式一，否则执行表达式二</code></pre><h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><pre><code>&amp;&amp; 与 并且 二者都为真才为真，一假则假
-|| 或 二者都为假才为假，一真则真
-! 非 取反
-( a,b) 只取后面的</code></pre><h2 id="分支选择器"><a href="#分支选择器" class="headerlink" title="分支选择器"></a>分支选择器</h2><pre><code>单分支if(){}
-双分支if(){} else{}
-多分支 if(){} else if(){} else{}
-switch(需要判定的){
-    case 满足条件:执行;breack
-}</code></pre>
+        <p>js是一种弱类型的脚本语言，无需编译。它的引入方式分为两种——外部引入、内嵌<br>js的命名规则：关键词保留字不能做变量名，命名做好做到见名知意</p>
+<h2 id="js的数据类型"><a href="#js的数据类型" class="headerlink" title="js的数据类型"></a>js的数据类型</h2><blockquote>
+<p>number 数字 NAN的数据类型是number isNAN()方法返回的是布尔值<br>string 字符串<br>boolean 布尔值<br>undefined 未定义<br>null 空值<br>js中的对象是一个无序数据的集合</p>
+</blockquote>
+<h2 id="js中的数据类型转换"><a href="#js中的数据类型转换" class="headerlink" title="js中的数据类型转换"></a>js中的数据类型转换</h2><h3 id="强转"><a href="#强转" class="headerlink" title="强转"></a>强转</h3><blockquote>
+<p>parseInt() 从字符的第一位开始看，是否是数字，如果不是，则直接抛出NAN。如果第一位是数字，则保留<br>parseFloat() 保留小数点<br>Number() 要看整体是否全是数字，如果是则相加，如果不是则抛出NAN<br>String() 数字转为字符串<br>Boolean() 转为布尔值 非数字0都是true，只有数字0才是false</p>
+</blockquote>
+<h2 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h2><blockquote>
+<p>++ 递增 会隐式转换<br>– 递减<br>%  求模取余<br>‘+  拼接，除非两边全是纯数字，不然要先进行隐式转换</p>
+</blockquote>
+<h2 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h2><blockquote>
+<p>= 赋值<br>+= a+=2 等同于 a=a+2<br><em>=<br>%=<br>*</em> 求幂</p>
+</blockquote>
+<h2 id="比较运算符"><a href="#比较运算符" class="headerlink" title="比较运算符"></a>比较运算符</h2><blockquote>
+<p>== 只比较值，不比较类型<br>=== 全相等，既比较值，也比较类型<br>大于<br>&lt; 小于<br>= 大于等于<br>&lt;= 小于等于<br>!= 判断值是否不等<br>！== 判断值是否不全等</p>
+</blockquote>
+<h2 id="三目运算符（三元运算）"><a href="#三目运算符（三元运算）" class="headerlink" title="三目运算符（三元运算）"></a>三目运算符（三元运算）</h2><blockquote>
+<p>条件？表达式一：表达式二 如果条件为真，则执行表达式一，否则执行表达式二</p>
+</blockquote>
+<h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><blockquote>
+<p>&amp;&amp; 与 并且 二者都为真才为真，一假则假<br>|| 或 二者都为假才为假，一真则真<br>! 非 取反<br>( a,b) 只取后面的</p>
+</blockquote>
+<h2 id="分支选择器"><a href="#分支选择器" class="headerlink" title="分支选择器"></a>分支选择器</h2><blockquote>
+<p>单分支if(){}<br>双分支if(){} else{}<br>多分支 if(){} else if(){} else{}<br>switch(需要判定的){<br>    case 满足条件:执行;breack<br>}</p>
+</blockquote>
+
     </div>
 
     
@@ -212,8 +203,8 @@ switch(需要判定的){
     
 
 </div>
-            </section>
-        
+        </section>
+
     </div>
 </div>
 
